@@ -1,0 +1,139 @@
+header {
+  margin: 2rem 0;
+}
+
+#featured {
+  margin-bottom: 2rem;
+  
+}
+
+h1 {
+  padding-left: 20px;
+}
+
+footer {
+    font-size: 0.75em;
+    text-align: center;
+    clear: both;
+    padding-top: 50px;
+    color: #ccc;
+    font: 15px arial;
+    
+}
+
+
+
+
+.carousel-item {
+  background: rgb(123, 255, 0);
+  height: 500px;
+ 
+  }
+  
+  
+  .slide {
+    background-image: url ('img/logo2.PNG');
+    height: 45%;
+    width: 100%;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 8%;
+    margin-top: 100px;
+  }
+
+  .slide-tree {
+    background-image: url ('img/pohutakawa-tree-in-flower.jpg');
+    width: 100%;
+    height: 110%;
+    text-align: center;
+    padding: 5% 15% 10% 15%;
+    
+  }
+
+  .slide-trail {
+    background-image: url ('img/pohutakawa-tree-in-flower.jpg');
+    width: 100%;
+    height: 110%;
+    text-align: center;
+    padding: 5% 15% 10% 15%;
+    
+  }
+
+.carousel-item:nth-child(2) {
+  background: #09F;
+  
+}
+
+.carousel-item:nth-child(3) {
+  background: #0F9;
+}
+
+.profile-info img {
+  max-width: 6rem;
+  max-height: 6rem;
+  border-radius: 1rem;
+  margin: -0.5rem 1rem 0 0;
+}
+
+.gallery a {
+  width: 48%;
+  margin: 1%;
+  height: 10rem;
+  background: #99F;
+  display: block;
+}
+
+.gallery {
+  margin: 2rem -1% 0;
+}
+
+.testing {
+  width: 500px;
+  margin: 1%;
+  height: 14rem;
+}
+
+.van{
+  width: 500px;
+  margin: 1%;
+  height: 14rem;
+}
+
+.wire {
+  width: 500px;
+  margin: 1%;
+  height: 15rem;
+}
+
+.repair {
+  width: 400px;
+  margin: 1%;
+  height: 15rem;
+}
+
+.service {
+  width: 500px;
+  margin: 1%;
+  height: 15rem;
+}
+
+@media all and (min-width: 576px) {
+  .gallery a {
+    width: 31.3%;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .gallery a {
+    width: 23%;
+  }
+}
+
+
+
+
+
+
+
+
